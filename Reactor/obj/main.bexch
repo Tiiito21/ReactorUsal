@@ -1,0 +1,24 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\aleja\OneDrive\Escritorio\UNIVERSIDAD\ProyectoEjemplo\Reactor\tareas.gpr
+20231202161436
+[BOUND OBJECT FILES]
+C:\Users\aleja\OneDrive\Escritorio\UNIVERSIDAD\ProyectoEjemplo\Reactor\obj\reactorP.o
+C:\Users\aleja\OneDrive\Escritorio\UNIVERSIDAD\ProyectoEjemplo\Reactor\obj\ActuadorEscritorP.o
+C:\Users\aleja\OneDrive\Escritorio\UNIVERSIDAD\ProyectoEjemplo\Reactor\obj\SensorLectorP.o
+C:\Users\aleja\OneDrive\Escritorio\UNIVERSIDAD\ProyectoEjemplo\Reactor\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\aleja\OneDrive\Escritorio\UNIVERSIDAD\ProyectoEjemplo\Reactor\obj\
+-LC:/gnat/2011/lib/gcc/i686-pc-mingw32/4.5.3/adalib/
+-static
+-static-libgcc
+C:/gnat/2011/lib/gcc/i686-pc-mingw32/4.5.3/adalib/libgnarl.a
+C:/gnat/2011/lib/gcc/i686-pc-mingw32/4.5.3/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads

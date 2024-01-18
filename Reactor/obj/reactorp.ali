@@ -1,0 +1,106 @@
+V "GNAT Lib v2011"
+A -gnatA
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+R nnnnnnnnnnnnnnnnnnvvnvnnnvnnnnnnnnnnvnnnnnnnvnnnnnnnnnnnnnnnnvnnnnvnnnnnnnnnnnnnn
+
+U reactorp%b		reactorp.adb		12bb6fbc NE OO PK IL
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+
+U reactorp%s		reactorp.ads		b46c0026 EE NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.real_time.timing_events%s  a-rttiev.adb	a-rttiev.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20110428140902 3ffc8e18
+D a-except.ads		20110428140900 4759ecee
+D a-finali.ads		20110428140900 b333d305
+D a-fihema.ads		20110428140900 1940728a
+D a-ioexce.ads		20110428140900 8b9de6cd
+D a-reatim.ads		20110428140902 63f07669
+D a-rttiev.ads		20110428140902 22f35a33
+D a-stream.ads		20110428140902 2ca4ee37
+D a-tags.ads		20110428140902 7b33f560
+D a-textio.ads		20110428140902 386df5d4
+D a-unccon.ads		20110428140902 f9eb8f06
+D interfac.ads		20110428140906 f77d8799
+D i-c.ads		20110428140906 5421119b
+D i-cstrin.ads		20110428140906 341d0ddf
+D i-cstrea.ads		20110428140906 1bd72c32
+D reactorp.ads		20231206193412 b0b90ab5
+D reactorp.adb		20231206193702 a2026509
+D system.ads		20110428140910 bc164b96
+D s-atacco.ads		20110428140906 1dc856ad
+D s-crtl.ads		20110428140906 ac77b159
+D s-exctab.ads		20110428140906 66e51330
+D s-ficobl.ads		20110428140906 443b9d66
+D s-finroo.ads		20110428140906 2dd85ce2
+D s-multip.ads		20110428140908 38ac9f73
+D s-osinte.ads		20110428140908 ecf1fbfd
+D s-parame.ads		20110428140908 03aa3b01
+D s-pooglo.ads		20110428140908 542f33d0
+D s-secsta.ads		20110428140908 eea35a36
+D s-soflin.ads		20110428140908 607487c5
+D s-stache.ads		20110428140908 596fc1b4
+D s-stausa.ads		20110428140908 017a0a05
+D s-stalib.ads		20110428140908 f78bcf95
+D s-stoele.ads		20110428140908 facd7d98
+D s-stoele.adb		20110428140908 afc5dc80
+D s-stopoo.ads		20110428140908 5c51faf9
+D s-tasinf.ads		20110428140908 859198ad
+D s-taspri.ads		20110428140908 196697f7
+D s-taprop.ads		20110428140908 07f79e46
+D s-taskin.ads		20110428140908 b2eaee08
+D s-taprob.ads		20110428140908 502249e3
+D s-traent.ads		20110428140908 5221ee41
+D s-unstyp.ads		20110428140908 6ae15c76
+D s-wchcon.ads		20110428140910 bfeb2e3d
+D s-win32.ads		20110428140910 07238fa2
+D text_io.ads		20110428140910 45d626c9
+X 1 ada.ads
+16K9*Ada 19e8 16|3r6 4r5 5r6 6r5 20r36 25r16 26r27 26r52 27r15 17|23r10 29r10
+. 33r36 38r10
+X 6 a-reatim.ads
+39K13*Real_Time 139e18 16|3w10 4r9 5r10 6r9 20r40 25r20 26r31 26r56 27r19
+. 17|23r14 29r14 33r40 38r14
+41O9*Time 16|25r30
+46O9*Time_Span 16|26r41
+53V13*Clock{41O9} 17|22s44
+55V13*"+"{41O9} 17|37s29
+56V13*"+"{41O9} 17|22s42
+85V13*Milliseconds{46O9} 16|26s66
+X 7 a-rttiev.ads
+38K23*Timing_Events 81e32 16|5w20 20r50 27r29 17|23r24 29r24 33r50 38r24
+40R9*Timing_Event 75e14 16|20r64 27r43 17|33r64
+45U14*Set_Handler 17|23s38 29s38 38s38
+X 16 reactorp.ads
+11K9*ReactorP 29l5 29e13 17|1b14 41l5 41t13
+12W19*ReactorTipo 28l8 28e19 17|2b19 40l8 40t19
+15U17 incrementar 17|4b14 7l11 7t22
+16U17 decrementar 17|9b17 12l11 12t22
+17U17 abrir 17|19b17 24l11 24t16
+18U17 cerrar 17|26b17 30l11 30t17
+19U17 leer 19<22 17|14b17 17l11 17t15
+19i22 dato{integer} 17|14b22 16m10
+20U17 Timer 20=23 17|23r69 33b17 38r69 39l11 39t16
+20r23 event{7|40R9} 17|33b23
+24i7 temperatura{integer} 17|6r10 6r23 11r10 11r23 16r16 36r10 36r24
+25o7 nextTime{6|41O9} 17|22r10 23r59 29r59 37r10 37r20 38r59
+26o7 tiempoActualizacion{6|46O9} 17|22r22 37r31
+27r7 control{7|40R9} 17|23r50 29r50 38r50
+X 18 system.ads
+37K9*System 16|1w6 2w6 18|196e11
+X 45 text_io.ads
+24K9*Text_IO=24:29 16|7w6
+
